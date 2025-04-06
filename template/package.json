@@ -1,6 +1,6 @@
 {
   "name": "native-template",
-  "version": "7.0.25",
+  "version": "7.0.17",
   "private": true,
   "scripts": {
     "postinstall": "node patches/apply-patches.js && jetify",
@@ -14,6 +14,8 @@
     "@react-native-community/datetimepicker": "3.0.3",
     "@react-native-community/masked-view": "0.1.10",
     "@react-native-community/push-notification-ios": "1.10.1",
+    "@react-native-firebase/app": "17.3.0",
+    "@react-native-firebase/messaging": "17.3.0",
     "@react-native-picker/picker": "^2.4.8",
     "react-native": "0.70.7",
     "react-native-code-push": "7.0.5",
@@ -22,7 +24,7 @@
     "react-native-gesture-handler": "1.10.3",
     "react-native-image-picker": "5.0.1",
     "react-native-localize": "1.4.2",
-    "react-native-permissions": "3.6.1",
+    "react-native-permissions": "3.3.1",
     "react-native-push-notification": "8.1.1",
     "react-native-reanimated": "1.13.1",
     "react-native-safe-area-context": "3.1.8",
@@ -41,7 +43,7 @@
     "patch-package": "^6.2.2"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=16"
   },
   "overrides": {
     "react": "18.2.0",
